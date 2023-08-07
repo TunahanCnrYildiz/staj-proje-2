@@ -1,0 +1,30 @@
+.layout {
+    border: 2px solid black;
+    padding: 0.5rem;
+    height: 100px;
+}
+
+.textClamp {
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    line-height: 24px;
+}
+
+.navbar {
+    padding-top: 2.5rem;
+}
+.logo {
+    width: 250px;
+    height: 120px;
+}
+.menu {
+    height: 105px;
+}
+.tArea {
+    resize: none;
+}
+a:link {
+    text-decoration: none;
+}
